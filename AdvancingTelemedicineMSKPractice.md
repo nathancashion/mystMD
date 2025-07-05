@@ -1,8 +1,9 @@
 ---
 title: Advancing Telemedicine in Musculoskeletal Practice
+short-title: MSK Telemedicine
 summary: My capstone paper combined my interests in chiropractic, health informatics, and broadcasting live video. Here is the full-text of my paper as submitted with minor changes for the web.
 date: 2024-07-28
-author:
+authors:
   - name: Nathan Cashion
     id: nc
     orcid: 0000-0001-7987-367X
@@ -10,6 +11,7 @@ author:
     url: https://www.nathancashion.com
     linkedin: https://www.linkedin.com/in/nathancashion
     github: nathancashion
+    corresponding: true
     affiliation:
       - name: Logan University
         city: Chesterfield
@@ -29,13 +31,19 @@ image: images/3BroadcastSetup.png
 bibliography: 
   - AdvancingMSKTelehealth.bib
 exports:
-  - pdf
-  - typst
+  - format: pdf
+    output: exports/AdvancingTelemedicineMSKPractice_LaTeX.pdf
+    template: frontiers
+    id: latex-pdf
+  - format: typst
+    output: exports/AdvancingTelemedicineMSKPractice_typst.pdf
+    template: lapreprint-typst
+    id: typst-pdf
 downloads:
-  - title: Full Text PDF
-    url: /AdvancingTelemedicineMSKPractice.pdf
-  - title: Full Text Typst
-    url: /AdvancingTelemedicineMSKPractice.typst
+  - id: latex-pdf
+    title: Download LaTeX PDF
+  - id: typst-pdf
+    title: Download Typst PDF
 ---
 
 :::{figure} images/3BroadcastSetup.png
@@ -54,7 +62,7 @@ Telemedicine has the potential to bring healthcare to millions of patients who a
 
 However, video calls leave much to be wanted, especially for conditions that are commonly examined and treated with direct, physical touch via physiotherapy, chiropractic, and massage. Patients and their clinicians observe feelings of disconnect during their live video calls [@ahmadPatientPerspectivesTelemedicine2023]. Healthcare systems and private clinics have been slow to include telemedicine in MSK practice for various reasons, including cost, resistance to change, and lack of clarity on the benefits and feasibility in this specialty [@daviesInternationalCoreCapability2021]. Learning how to make telemedicine a better experience for both patients and clinicians can accelerate the potential reach of this promising technology.
 
-:::{iframe} https://www.youtube.com/watch?v=Obq0FGVvbZ8
+:::{iframe} https://www.youtube.com/embed/Obq0FGVvbZ8
 :align: center
 Demonstration of the limitations of telemedicine video calls.
 :::
@@ -169,7 +177,7 @@ Most of the research concerning engagement in telemedicine refers to the long-te
 Looking directly into the camera can simulate eye contact and help build professional intimacy.
 :::
 
-@lvHowLiveStreaming2022 examined factors that lead to sustained engagement by viewers of live streaming media. The authors hypothesized that there is a link between visual stimuli (such as emojis), perceived trust, and presenter's social warmth and continued viewing. The authors developed a questionnaire that received 240 responses to validate their hypotheses. Based on their findings, the authors recommend live-streaming presenters engage their audience in real-time and build long-term trust by answering questions, designing visual stimuli to support engagement, and demonstrating social warmth.
+@lvHowLiveStreaming2022 examined factors that lead to sustained engagement by viewers of live streaming media. The authors hypothesized that there is a link between visual stimuli (such as emojis), perceived trust, and presenter's social warmth and continued viewing. The authors developed a questionnaire that received 240 responses to validate their hypotheses. Based on their findings, the authors recommend live-streaming presenters engage their audience in real-time and build long-term trust by answering questions, designing visual stimuli (see [](#telehealth-overlay)) to support engagement, and demonstrating social warmth.
 
 :::{figure} /images/TelehealthOverlayConcept.002.png
 :alt: A screenshot of a telemedicine video call with an overlay of visual stimuli to increase engagement.
@@ -184,7 +192,7 @@ In their JAMA viewpoint, @mangioneOutTouch2024 reflect on the power of touch tha
 
 *Content quality*
 
-@liImpactFitnessInfluencers2023 examined how the characteristics of fitness influencers impacted people's perceived connection and behaviors. The authors found that personal attributes, such as attractiveness, and the quality of content were associated with viewers' motivations to exercise. By presenting high quality content and engaging with their viewers, social media influencers facilitated parasocial relationships which positively influence their viewers' behaviors. This research suggests that content quality is an important factor in achieving desired results from viewers.
+@liImpactFitnessInfluencers2023 examined how the characteristics of fitness influencers impacted people's perceived connection and behaviors. The authors found that personal attributes, such as attractiveness, and the quality of content were associated with viewers' motivations to exercise. By presenting high quality content and engaging with their viewers, social media influencers facilitated parasocial relationships which positively influence their viewers' behaviors. (See [](#CleoAbram).) This research suggests that content quality is an important factor in achieving desired results from viewers.
 
 :::{figure} /images/3CleoAbram.png
 :alt: A screenshot of Cleo Abram's YouTube channel with a focus on high-quality content.
@@ -230,7 +238,7 @@ Telemedicine has proven to be a valuable component to evidence-based musculoskel
 
 In addition to training musculoskeletal clinicians on core competencies related to telemedicine, additional training should be offered on advanced topics, such as intimacy theory to develop a strong therapeutic alliance and the software and tools to enhance the user-experience.
 
-The group fitness app Peloton is an example of what well-produced telemedicine can aspire to. Professional instructors guide a live or virtual group of cyclists through a pre-planned workout that is broadcast to subscribers. A small technical crew operate the studio and use multiple camera angles to create a dynamic, choreographed performance. The instructor is trained to speak directly to an imagined participant while looking into the camera. This significant effort results in a unique, engaging experience that journalists have described as intimate, citing social media posts idolizing the celebrity instructors [@bryantTheresIntimacyWhat2020].
+The group fitness app Peloton is an example of what well-produced telemedicine can aspire to. Professional instructors guide a live or virtual group of cyclists through a pre-planned workout that is broadcast to subscribers. A small technical crew operate the studio and use multiple camera angles to create a dynamic, choreographed performance. As shown in [](#Peloton), the instructor is trained to speak directly to an imagined participant while looking into the camera. This significant effort results in a unique, engaging experience that journalists have described as intimate, citing social media posts idolizing the celebrity instructors [@bryantTheresIntimacyWhat2020].
 
 :::{figure} images/PelotonWideRightShot.png
 :alt: A screenshot of a Peloton instructor speaking directly into the camera while riding a stationary bike.

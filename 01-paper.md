@@ -1,22 +1,32 @@
 ---
 title: "How to MyST, without being mystified 🧙"
+short_title: How to MyST
 subject: Tutorial
 subtitle: Evolve your markdown documents and notebooks into structured data
 authors:
   - name: Rowan Cockett
-    affiliation: 1,2
+    affiliations:
+      - Executable Books
+      - Curvenote
     orcid: 0000-0002-7859-8394
     email: rowan@curvenote.com
-affiliations:
-  - name: Executable Books
-    index: 1
-  - name: Curvenote
-    index: 2
 date: 2023-10-01
 license: CC-BY-4.0
 keywords: [MyST, Markdown, Jupyter, scientific communication, structured data, publishing]
 abstract: |
   We introduce, a set of open-source, community-driven tools for MyST Markdown (myst.tools) designed for scientific communication, including a powerful authoring framework that supports blogs, online books, scientific papers, reports and journals articles.
+exports:
+  - format: typst
+    template: lapreprint-typst
+    output: exports/HowToMyST.pdf
+  - format: docx
+    output: exports/HowToMyST.docx
+downloads:
+  - title: Full Text PDF
+    file: exports/HowToMyST.pdf
+  - file: exports/HowToMyST.docx
+    title: Download Word Document
+
 ---
 
 # How to MyST, without being mystified 🧙
