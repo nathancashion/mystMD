@@ -10,11 +10,11 @@ project:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
-  baseurl: /mystMD/
   options:
+  #   baseurl: /mystMD/
   #   favicon: favicon.ico
   #   logo: site_logo.png
-    hide:
+     hide:
       toc: false
       download: true
       # edit: true
