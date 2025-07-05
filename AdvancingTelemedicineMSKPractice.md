@@ -1,6 +1,6 @@
 ---
 title: Advancing Telemedicine in Musculoskeletal Practice
-short-title: MSK Telemedicine
+short-title: "MSK Telemedicine"
 summary: My capstone paper combined my interests in chiropractic, health informatics, and broadcasting live video. Here is the full-text of my paper as submitted with minor changes for the web.
 date: 2024-07-28
 authors:
