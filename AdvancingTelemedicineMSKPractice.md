@@ -8,25 +8,15 @@ author:
     orcid: 0000-0001-7987-367X
     email: nathan@cashion.com
     url: https://www.nathancashion.com
+    linkedin: https://www.linkedin.com/in/nathancashion
+    github: nathancashion
     affiliation:
       - name: Logan University
         city: Chesterfield
         state: MO
         url: https://www.logan.edu
-        corresponding: true
-format:
-  html:
-    toc: true
-  pdf:
-    toc: true
-    papersize: letter
-    documentclass: article
-    mainfont: Arial
-    pdf-engine: pdflatex
 abstract: |
   Telemedicine has rapidly emerged as a promising approach to managing back, neck, and other musculoskeletal (MSK) pain. Despite impressive advances in the technology, clinicians and patients remain reluctant to adopt it. The transition to telemedicine from hands-on, in-person care presents numerous barriers. In contrast, new technologies and tools are readily embraced by early-adopters in other industries, such as video game streaming, fitness influencers, and YouTube content creators. By adopting tools and techniques from these other industries, MSK providers may be able to increase in-session engagement and patient satisfaction with telemedicine.
-categories:
-  - Science
 keywords:
   - telemedicine
   - musculoskeletal
@@ -35,11 +25,17 @@ keywords:
   - academic
   - thesis
 license: CC-BY-NC-SA-4.0
-copyright:
-  holder: Nathan Cashion
-  year: 2024
 image: images/3BroadcastSetup.png
-bibliography: AdvancingMSKTelehealth.bib
+bibliography: 
+  - AdvancingMSKTelehealth.bib
+exports:
+  - pdf
+  - typst
+downloads:
+  - title: Full Text PDF
+    url: /AdvancingTelemedicineMSKPractice.pdf
+  - title: Full Text Typst
+    url: /AdvancingTelemedicineMSKPractice.typst
 ---
 
 :::{figure} images/3BroadcastSetup.png
@@ -58,9 +54,7 @@ Telemedicine has the potential to bring healthcare to millions of patients who a
 
 However, video calls leave much to be wanted, especially for conditions that are commonly examined and treated with direct, physical touch via physiotherapy, chiropractic, and massage. Patients and their clinicians observe feelings of disconnect during their live video calls [@ahmadPatientPerspectivesTelemedicine2023]. Healthcare systems and private clinics have been slow to include telemedicine in MSK practice for various reasons, including cost, resistance to change, and lack of clarity on the benefits and feasibility in this specialty [@daviesInternationalCoreCapability2021]. Learning how to make telemedicine a better experience for both patients and clinicians can accelerate the potential reach of this promising technology.
 
-:::{iframe} https://youtu.be/Obq0FGVvbZ8
-:width: 960
-:height: 540
+:::{iframe} https://www.youtube.com/watch?v=Obq0FGVvbZ8
 :align: center
 Demonstration of the limitations of telemedicine video calls.
 :::
@@ -107,7 +101,7 @@ Searches for `"telehealth AND engagement"` provided limited results relevant to 
 
 I included other articles found via Google Scholar and Google Search that were relevant. Though they may not be peer-reviewed, they are authored by industry experts.
 
-When new topics or keywords appeared frequently in my initial results, I explored them further by searching the same databases. I also used artificial intelligence research assistants [@elicitElicitAIResearch2024; @researchrabbitResearchRabbit2024] to suggest other articles or related topics.
+When new topics or keywords appeared frequently in my initial results, I explored them further by searching the same databases. I also used artificial intelligence research assistants [@Elicit2024; @ResearchRabbit2024] to suggest other articles or related topics.
 
 ### Literature Review
 
@@ -285,4 +279,4 @@ The economic and social barriers to telemedicine are difficult to address. And m
 
 To improve the provision of telemedicine, research and training initiatives should address new ways of conducting virtual visits and advancing the technical skills of clinicians beyond the core competencies and basic digital skills. By adopting technical tools from video production, broadcast, and livestreaming, providers can increase the quality of their video calls and more readily adapt to the unique needs of musculoskeletal care. By training clinicians how to foster emotional connection with enhanced communication skills and maintaining eye contact during calls, it may be possible to improve the patient experience, increase satisfaction, and affect outcomes.
 
-### References
+---

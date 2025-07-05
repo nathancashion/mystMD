@@ -2,19 +2,19 @@
 version: 1
 project:
   id: bc613170-8177-45f1-8bfc-48b83b512be4
-  # title:
-  # description:
+  title: Nathan's MyST Blog
+  description: A blog using MyST Markdown, Jupyter Book, and GitHub Pages.
   # keywords: []
   # authors: []
-  github: https://github.com/jupyter-book/mystmd-quickstart
+  github: https://github.com/nathancashion
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: article-theme
-  # options:
+  options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
-  hide:
-    toc: true
-    # edit: true
-    # search: true
-    # footer: true
+    hide:
+      toc: true
+      # edit: true
+      # search: true
+      # footer: true

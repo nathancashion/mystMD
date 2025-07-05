@@ -13,15 +13,10 @@ affiliations:
   - name: Curvenote
     index: 2
 date: 2023-10-01
-license: CC-BY
-status: published
+license: CC-BY-4.0
 keywords: [MyST, Markdown, Jupyter, scientific communication, structured data, publishing]
 abstract: |
   We introduce, a set of open-source, community-driven tools for MyST Markdown (myst.tools) designed for scientific communication, including a powerful authoring framework that supports blogs, online books, scientific papers, reports and journals articles.
-bibliography: myst.bib
-format: 
-  - myst
-  - pdf
 ---
 
 # How to MyST, without being mystified 🧙
