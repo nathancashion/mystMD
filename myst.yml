@@ -28,3 +28,5 @@ site:
       # edit: true
       # search: true
       # footer: true
+static:
+  - images

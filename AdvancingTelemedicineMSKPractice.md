@@ -168,7 +168,7 @@ Most of the research concerning engagement in telemedicine refers to the long-te
 
 @baroniStateArtTelerehabilitation2023 emphasized this last point stating that communication is the most powerful tool for clinicians to use in telemedicine consults. As [](#eye-contact) demonstrates, looking directly into the camera helps establish an emotional connection and build trust.
 
-:::{figure} /images/slide-10.png
+:::{figure} images/slide-10.png
 :alt: A screenshot of a live-streaming video call with the presenter looking directly into the camera.
 :label: eye-contact
 :width: 100%
@@ -179,7 +179,7 @@ Looking directly into the camera can simulate eye contact and help build profess
 
 @lvHowLiveStreaming2022 examined factors that lead to sustained engagement by viewers of live streaming media. The authors hypothesized that there is a link between visual stimuli (such as emojis), perceived trust, and presenter's social warmth and continued viewing. The authors developed a questionnaire that received 240 responses to validate their hypotheses. Based on their findings, the authors recommend live-streaming presenters engage their audience in real-time and build long-term trust by answering questions, designing visual stimuli (see [](#telehealth-overlay)) to support engagement, and demonstrating social warmth.
 
-:::{figure} /images/TelehealthOverlayConcept.002.png
+:::{figure} images/TelehealthOverlayConcept.002.png
 :alt: A screenshot of a telemedicine video call with an overlay of visual stimuli to increase engagement.
 :label: telehealth-overlay
 :width: 100%
@@ -194,7 +194,7 @@ In their JAMA viewpoint, @mangioneOutTouch2024 reflect on the power of touch tha
 
 @liImpactFitnessInfluencers2023 examined how the characteristics of fitness influencers impacted people's perceived connection and behaviors. The authors found that personal attributes, such as attractiveness, and the quality of content were associated with viewers' motivations to exercise. By presenting high quality content and engaging with their viewers, social media influencers facilitated parasocial relationships which positively influence their viewers' behaviors. (See [](#CleoAbram).) This research suggests that content quality is an important factor in achieving desired results from viewers.
 
-:::{figure} /images/3CleoAbram.png
+:::{figure} images/3CleoAbram.png
 :alt: A screenshot of Cleo Abram's YouTube channel with a focus on high-quality content.
 :label: CleoAbram
 :width: 100%
