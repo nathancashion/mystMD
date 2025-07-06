@@ -17,7 +17,7 @@ project:
     
 site:
   title: Nathan's MyST Blog
-  template: book-theme
+  template: article-theme
   options:
     # baseurl: /mystMD/
     # favicon: favicon.ico
