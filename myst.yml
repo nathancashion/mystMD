@@ -19,7 +19,7 @@ site:
   title: Nathan's MyST Blog
   template: article-theme
   options:
-    # baseurl: /mystMD/
+    baseurl: ''
     # favicon: favicon.ico
     # logo: site_logo.png
     hide:
